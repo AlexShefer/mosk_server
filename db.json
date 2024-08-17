@@ -1,0 +1,139 @@
+{
+    "buildingInfo": {
+        "storeys": {
+            "3Oyy6znGfDuxU1yeaCAwHe": {
+                "global_id": "3Oyy6znGfDuxU1yeaCAwHe",
+                "name": "0-Ground floor",
+                "spaces_ids": [
+                    "1F0C2tqCLFbfijKhkMkIdx",
+                    "07hZJjwn11bQuuhkk$NaCe",
+                    "3XjLTgMHvB8uP88y_Vjmv1",
+                    "0eEEKpvFD4hBE0gKrW21zA"
+                ]
+            },
+            "2CoSFmmOPBhOOXH7PDe3YR": {
+                "global_id": "2CoSFmmOPBhOOXH7PDe3YR",
+                "name": "1-First floor",
+                "spaces_ids": []
+            },
+            "0EtCoU9KT6bxaxTcvKjuLC": {
+                "global_id": "0EtCoU9KT6bxaxTcvKjuLC",
+                "name": "2-Second floor",
+                "spaces_ids": []
+            },
+            "2pAkeOGcrCcPI4s9JGeq1B": {
+                "global_id": "2pAkeOGcrCcPI4s9JGeq1B",
+                "name": "3-Roof",
+                "spaces_ids": []
+            }
+        },
+        "spaces": {
+            "1F0C2tqCLFbfijKhkMkIdx": {
+                "global_id": "1F0C2tqCLFbfijKhkMkIdx",
+                "name": "Office 01"
+            },
+            "07hZJjwn11bQuuhkk$NaCe": {
+                "global_id": "07hZJjwn11bQuuhkk$NaCe",
+                "name": "Cafe"
+            },
+            "3XjLTgMHvB8uP88y_Vjmv1": {
+                "global_id": "3XjLTgMHvB8uP88y_Vjmv1",
+                "name": "Waiting area"
+            },
+            "0eEEKpvFD4hBE0gKrW21zA": {
+                "global_id": "0eEEKpvFD4hBE0gKrW21zA",
+                "name": "Meeting room"
+            }
+        }
+    },
+    "categories": {
+        "categories": [
+            {
+                "code": "0",
+                "name": "Undefined",
+                "grouping": null,
+                "imposed_load_kN_m2": 0
+            },
+            {
+                "code": "A",
+                "name": "Domestic and residential",
+                "grouping": null,
+                "imposed_load_kN_m2": 2
+            },
+            {
+                "code": "B",
+                "name": "Office areas",
+                "grouping": null,
+                "imposed_load_kN_m2": 3
+            },
+            {
+                "code": "C1",
+                "name": "With tables",
+                "grouping": "C",
+                "imposed_load_kN_m2": 3
+            },
+            {
+                "code": "C2",
+                "name": "With fixed seats",
+                "grouping": "C",
+                "imposed_load_kN_m2": 4
+            },
+            {
+                "code": "C3",
+                "name": "Without obstacles for moving",
+                "grouping": "C",
+                "imposed_load_kN_m2": 5
+            },
+            {
+                "code": "C4",
+                "name": "With possible physical activities",
+                "grouping": "C",
+                "imposed_load_kN_m2": 5
+            },
+            {
+                "code": "C5",
+                "name": "Susceptible to large crowds",
+                "grouping": "C",
+                "imposed_load_kN_m2": 7.5
+            },
+            {
+                "code": "D1",
+                "name": "Retail shops",
+                "grouping": "D",
+                "imposed_load_kN_m2": 5
+            },
+            {
+                "code": "D2",
+                "name": "Department stores",
+                "grouping": "D",
+                "imposed_load_kN_m2": 5
+            },
+            {
+                "code": "E1",
+                "name": "Static equipment",
+                "grouping": "E",
+                "imposed_load_kN_m2": 7.5
+            },
+            {
+                "code": "E2",
+                "name": "Industrial use",
+                "grouping": "E",
+                "imposed_load_kN_m2": 7.5
+            }
+        ],
+        "groups": [
+            {
+                "code": "C",
+                "name": "Areas where people may congregate"
+            },
+            {
+                "code": "D",
+                "name": "Shopping areas"
+            },
+            {
+                "code": "E",
+                "name": "Areas for storage and industrial activities"
+            }
+        ]
+    }
+}
