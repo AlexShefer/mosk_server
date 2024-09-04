@@ -11,10 +11,24 @@ server.use(middlewares);
 
 // Custom route to handle POST requests and send back buildingInfo
 server.post("/api/v1/ifc/extract_building_info", (req, res) => {
-    // Return existing buildingInfo from db.json without modifying it
     const buildingInfo = router.db.get("buildingInfo").value();
     console.log("Building Info:", buildingInfo);
     res.jsonp(buildingInfo);
+});
+server.post(
+    "/api/v1/structural_analysis/building/run_calculation",
+    (req, res) => {
+        const calculationResult = router.db.get("run_calculation").value();
+        console.log("Calculation result:", calculationResult);
+        res.jsonp(calculationResult);
+    }
+);
+
+server.get("/api/v1/structural_analysis/load_categories", (req, res) => {
+    // Return existing categories from db.json
+    const categories = router.db.get("categories").value();
+    console.log("Categories:", categories);
+    res.jsonp(categories);
 });
 
 // Use the default router for all other routes

@@ -1,0 +1,61 @@
+{
+    "building_loads": {
+        "load_code": "C3",
+        "imposed_load_kN_m2": 5,
+        "dead_load_kN_m2": 0
+    },
+    "storey_loads": {
+        "3XaojVE5n8SAGs4U8r5Cta": {
+            "load_code": "C3",
+            "imposed_load_kN_m2": 5,
+            "dead_load_kN_m2": 2
+        },
+        "0oYlfENizC8ejhcFG5cs_f": {
+            "load_code": "C2",
+            "imposed_load_kN_m2": 4,
+            "dead_load_kN_m2": 3
+        },
+        "3xZ$eCyeH4Ke8StIomLB2_": {
+            "load_code": "B",
+            "imposed_load_kN_m2": 3,
+            "dead_load_kN_m2": 3
+        },
+        "1cOlVMojr93AD1uB5AT0Js": {
+            "load_code": "A",
+            "imposed_load_kN_m2": 2,
+            "dead_load_kN_m2": 4
+        }
+    },
+    "space_loads": {
+        "24pLttNSD1dOe3uKyH_KGI": {
+            "load_code": "C4",
+            "imposed_load_kN_m2": 5,
+            "dead_load_kN_m2": 5
+        },
+        "3ivpEWr6HDFAa11Bua9hLL": {
+            "load_code": "C3",
+            "imposed_load_kN_m2": 5,
+            "dead_load_kN_m2": 0
+        },
+        "06XexgSNX82w_PxLp6U0ap": {
+            "load_code": "C2",
+            "imposed_load_kN_m2": 4,
+            "dead_load_kN_m2": 0
+        },
+        "3ViklAFKLBcgs6Fk8eHJPa": {
+            "load_code": "C2",
+            "imposed_load_kN_m2": 4,
+            "dead_load_kN_m2": 0
+        },
+        "2Tct2BW05Fc8WuO0w8ef_f": {
+            "load_code": "B",
+            "imposed_load_kN_m2": 3,
+            "dead_load_kN_m2": 0
+        },
+        "1Zd6WkUizA49czar158cia": {
+            "load_code": "B",
+            "imposed_load_kN_m2": 3,
+            "dead_load_kN_m2": 0
+        }
+    }
+}
